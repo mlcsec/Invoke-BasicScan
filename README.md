@@ -1,5 +1,5 @@
 # Invoke-BasicScan
-Basic bitch of PowerShell portscanners.
+Basic bitch of PowerShell portscanners
 ```
 PS C:\Users\User\Desktop> BasicScan -Target 192.168.0.7
 
