@@ -16,7 +16,6 @@ BasicScan -Target 192.168.0.7
 
     [CmdletBinding()] Param(
         [parameter(Mandatory = $true, Position = 0)]
-        [ValidatePattern("\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b")]
         [string]
         $Target
     )
