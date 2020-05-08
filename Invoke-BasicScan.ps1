@@ -8,10 +8,13 @@ Basic portscanner targeting single host
 Scans supplied IP address for common ports: 21,22,23,25,80,88,110,143,389,443,445,636,1433,3306,3389,5985
 
 .PARAMETER Target
-Target IP address to scan
+Target IP address or DNS name to scan
 
 .EXAMPLE
 BasicScan -Target 192.168.0.7
+
+.EXAMPLE
+BasicScan -Target victim.lab.local
 #>
 
     [CmdletBinding()] Param(
