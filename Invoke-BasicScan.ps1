@@ -5,7 +5,7 @@ function BasicScan
 Basic portscanner targeting single host
 
 .DESCRIPTION
-Scans supplied IP address for common ports: 21,22,23,25,80,88,110,143,389,443,445,636,1433,3306,3389,5985
+Scans supplied IP address for common ports: 21,22,23,25,80,88,110,143,389,443,445,636,1433,3306,3389,5985,8000,8080,8200
 
 .PARAMETER Target
 Target IP address or DNS name to scan
@@ -23,7 +23,7 @@ BasicScan -Target victim.lab.local
         $Target
     )
 
-    $Ports = @(21,22,23,25,80,88,110,143,389,443,445,636,1433,3306,3389,5985)
+    $Ports = @(21,22,23,25,80,88,110,143,389,443,445,636,1433,3306,3389,5985,8000,8080,8200)
     $openPorts = @()
     $ErrorActionPreference = 'silentlycontinue'
     If(Test-Connection -BufferSize 32 -Count 1 -Quiet -ComputerName $Target){
