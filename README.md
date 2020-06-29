@@ -1,5 +1,4 @@
 # Invoke-BasicScan
-Can parse IP or DNS name of target host
 ```
 PS C:\Users\User\Desktop> BasicScan -Target 192.168.0.7
 
