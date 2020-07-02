@@ -11,5 +11,5 @@ PS C:\Users\User\Desktop> BasicScan -Target target.lab.local
 
 Target       Ports
 ------       ----------
-victim.lab.local  80,443,445,1433
+target.lab.local  80,443,445,1433
 ```
